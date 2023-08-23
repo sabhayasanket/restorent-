@@ -1,0 +1,117 @@
+ /* media query   */
+@media (max-width: 991px) {
+
+     nav,
+     .social {
+          display: none;
+     }
+
+     .bars_btn i {
+          padding: 20px;
+     }
+
+     .bars_btn {
+          display: block;
+     }
+
+     .mob_menu {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 100%;
+          padding: 30px;
+          display: block;
+          background-color: black;
+          z-index: 1;
+           text-decoration: none; 
+     }
+
+     .mob_menu li {
+          list-style-type: none;
+     }
+
+     .mob_menu li a {
+          padding: 12px 0;
+          display: block;
+          color: white;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+          text-decoration: none;
+     }
+}
+
+.mob_sub_menu {
+     padding-left: 40px;
+}
+
+/* .banner .banner-img {
+     top: 100px;
+     bottom: 100px;
+     border-width: 10px;
+} */
+
+/* @media (max-width: 767px) {
+
+     .banner,
+     .banner-img {
+          display: none;
+     }
+} */
+@media (max-width: 991px)
+{
+     .logo
+     {
+          /* position: unset; */
+          /* top: 0;
+          left: 0;
+          /* height: 700px; */
+          /* width: 100%;  */
+          text-align: center;
+          /* padding: 20px 0; */
+          display: block;
+          /* position: absolute; */
+          height: auto;
+          top: 0;
+          padding: 0;
+          /* background-color: #fff; */
+          /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+          /* z-index: 1000; */
+     }
+     .logo img{
+          background-image: url(../images/asset\ 3.png);
+          background-size: cover;
+          /* z-index: 100; */
+          
+     }
+     header{
+          background-color: white;
+     }
+     .shop-cart{
+          /* position: absolute; */
+          /* top: 0;
+         left: auto;
+            right: 15px;
+            margin: 25px 0 0; */
+     }
+     .shop-cart > a > i{
+          color: black;
+          /* background-color: aquamarine; */
+          font-size: 16px;
+          /* display: block; */
+          line-height: 30px;
+          /* position: relative; */
+          bottom: 10px;
+          
+     }
+     .video-wrap .video-inner
+     {
+          height: 100%;
+     }
+}
+
+@media (min-width: 1200px)
+{
+     .container
+     {
+          width: 1170px;
+     }
+}
